@@ -3,16 +3,7 @@ layout: page
 title: Welcome to Lagrange!
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
-
-### Getting Started
-
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
-
-### Example Content
-
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
-
-### Questions?
-
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+# Thiago S Teixeira
+Graduando em ciência da computação na Universidade Tecnológica Federal do Paraná (UTFPR) campus Ponta Grossa, propôs um novo método para encontrar zeros de funções reais chamado método do formigueiro, traduziu a documentação da distribuição GNU/Linux para português brasileiro, foi professor em um projeto de extensão de inclusão informacional, professor de modelagem e animação 3D no projeto de extensão Desperta Animação, foi monitor bolsista da matéria de computação gráfica.
+Hoje atua como engenheiro de inteligencia artificial no projeto de extensão Inteligencia artificial no apoio de deficiente intelectuais, e como diretor de inteligencia computacional na ORION Aerospace Design.
+Gosta de passar o tempo jogando RimWorld, comendo doritos e tomando uma heineken.
