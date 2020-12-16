@@ -14,7 +14,7 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'github', link: 'https://www.github.com/teixeirazeus'}
-#- {icon: 'twitter', link: 'https://twitter.com/ThiagoSTeixeir4'}
+- {icon: 'twitter', link: 'https://twitter.com/ThiagoSTeixeir4'}
 - {icon: 'chess-knight', link: 'https://lichess.org/@/ThiagoSTeixeira}
 #- {icon: 'file-alt', link: 'http://lattes.cnpq.br/1506806182041109'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/'}
