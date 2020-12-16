@@ -15,8 +15,8 @@ menu:
 social:
 - {icon: 'github', link: 'https://www.github.com/teixeirazeus'}
 #- {icon: 'twitter', link: 'https://twitter.com/ThiagoSTeixeir4'}
-- {icon: 'chess-knight ', link: 'https://lichess.org/@/ThiagoSTeixeira}
-- {icon: 'file-alt', link: 'http://lattes.cnpq.br/1506806182041109'}
+- {icon: 'chess-knight', link: 'https://lichess.org/@/ThiagoSTeixeira}
+#- {icon: 'file-alt', link: 'http://lattes.cnpq.br/1506806182041109'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/'}
 - {icon: 'envelope', link: 'mailto:teixeira.zeus@gmail.com'}
 - {icon: 'rss-square', link: '/feed.xml'}
