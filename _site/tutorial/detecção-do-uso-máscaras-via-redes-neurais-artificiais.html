@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Detecção do uso máscaras via redes neurais artificiais | Thiago Teixeira
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Thiago Teixeira" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Thiago Teixeira | .dev"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      });
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105306190-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Detecção do uso máscaras via redes neurais artificiais | Thiago Teixeira</title>
+<meta name="generator" content="Jekyll v3.6.3" />
+<meta property="og:title" content="Detecção do uso máscaras via redes neurais artificiais" />
+<meta name="author" content="Thiago S Teixeira" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Esta postagem demonstra a criação de um sistema utilizando redes neurais artificiais para detecção de faces com máscara e sem máscara, com o objetivo de monitorar o uso de máscara em um espaço determinado, com o auxilio de uma câmera." />
+<meta property="og:description" content="Esta postagem demonstra a criação de um sistema utilizando redes neurais artificiais para detecção de faces com máscara e sem máscara, com o objetivo de monitorar o uso de máscara em um espaço determinado, com o auxilio de uma câmera." />
+<link rel="canonical" href="http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html" />
+<meta property="og:url" content="http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html" />
+<meta property="og:site_name" content="Thiago Teixeira" />
+<meta property="og:image" content="http://localhost:4000/mask.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-16T00:00:00-03:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","author":{"@type":"Person","name":"Thiago S Teixeira"},"url":"http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html","headline":"Detecção do uso máscaras via redes neurais artificiais","dateModified":"2020-12-16T00:00:00-03:00","datePublished":"2020-12-16T00:00:00-03:00","image":"http://localhost:4000/mask.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html"},"description":"Esta postagem demonstra a criação de um sistema utilizando redes neurais artificiais para detecção de faces com máscara e sem máscara, com o objetivo de monitorar o uso de máscara em um espaço determinado, com o auxilio de uma câmera.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Thiago Teixeira</a>
+    <small class="masthead-subtitle">.dev</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">Sobre</a>
+    
+      <a href="/menu/writing.html">Blog</a>
+    
+  </nav>
+  <nav class="social-icons">
+    <!--
+  
+  
+    <a href="https://www.github.com/teixeirazeus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://lichess.org/@/ThiagoSTeixeira" target="_blank"><i class="fa fa-chess-knight" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="http://lattes.cnpq.br/1506806182041109" target="_blank"><i class="fa fa-lattes" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:teixeira.zeus@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+-->
+<a href="https://www.github.com/teixeirazeus" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://lichess.org/@/ThiagoSTeixeira" target="_blank"><i class="fas fa-chess-knight"></i></a>
+<a href="http://lattes.cnpq.br/1506806182041109" target="_blank"><i class="fas fa-microscope"></i></a>
+<a href="https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+<a href="mailto:teixeira.zeus@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Detecção do uso máscaras via redes neurais artificiais
+</h1>
+
+
+  <img src="/assets/img/mask.jpg">
+
+
+<p>Esta postagem demonstra a criação de um sistema utilizando <a href="https://pt.wikipedia.org/wiki/Rede_neural_artificial">redes neurais artificiais</a> para detecção de faces com máscara e sem máscara, com o objetivo de monitorar o uso de máscara em um espaço determinado, com o auxilio de uma câmera.</p>
+
+<h3 id="yolo">YOLO</h3>
+
+<p>Dentre as diversas tecnicas no estado da arte da detecção de objetos, a <a href="https://arxiv.org/abs/1506.02640">You only look once (YOLO)</a>, se destaca pelo modo avaliação em regiões da imagem. Outras tecnicas aplicam o modelo de rede neural em varios locais e escala na imagem, ao contrario do YOLO que aplica a rede neural em toda imagem, dividindo a imagem em regiões e prevendo a probabilidade de detecção em cada região. Esta avaliação de imagem permite que YOLO seja 1000 vezes mais rapido que <a href="https://en.wikipedia.org/wiki/Region_Based_Convolutional_Neural_Networks">R-CNN</a> e 100 vezes mais que <a href="https://arxiv.org/abs/1504.08083">Fast R-CNN</a>.</p>
+
+<h3 id="referências">Referências</h3>
+
+
+<span class="post-date">
+  Escrito em
+  
+  December
+  16th,
+  2020
+  by
+  
+    Thiago S Teixeira
+  
+</span>
+
+<div class="post-date">Compartilhar!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Detecção do uso máscaras via redes neurais artificiais&amp;url=/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html&amp;title=Detecção do uso máscaras via redes neurais artificiais" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >Postagens relacionadas:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+    
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  <!--
+  
+  
+    <a href="https://www.github.com/teixeirazeus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://lichess.org/@/ThiagoSTeixeira" target="_blank"><i class="fa fa-chess-knight" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="http://lattes.cnpq.br/1506806182041109" target="_blank"><i class="fa fa-lattes" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:teixeira.zeus@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+-->
+<a href="https://www.github.com/teixeirazeus" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://lichess.org/@/ThiagoSTeixeira" target="_blank"><i class="fas fa-chess-knight"></i></a>
+<a href="http://lattes.cnpq.br/1506806182041109" target="_blank"><i class="fas fa-microscope"></i></a>
+<a href="https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+<a href="mailto:teixeira.zeus@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+  <div class="post-date"><a href="/menu/about.html">Thiago Teixeira | .dev by Thiago S Teixeira</a></div>
+</footer>
+
+  </div>
+
+</body>
+</html>
