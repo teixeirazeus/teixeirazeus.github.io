@@ -7,6 +7,21 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Test</title>
+				
+					<dc:creator>Thiago S Teixeira</dc:creator>
+				
+				
+					<description>&lt;h5 id=&quot;copyright-2018-google-llc&quot;&gt;Copyright 2018 Google LLC.&lt;/h5&gt;
+
+</description>
+				
+				<pubDate>Thu, 04 Feb 2021 00:00:00 -0300</pubDate>
+				<link>/tutorial/test.html</link>
+				<guid isPermaLink="true">/tutorial/test.html</guid>
+			</item>
+		
+			<item>
 				<title>Detecção do uso máscaras via redes neurais artificiais</title>
 				
 					<dc:creator>Thiago S Teixeira</dc:creator>
@@ -17,82 +32,8 @@
 </description>
 				
 				<pubDate>Wed, 16 Dec 2020 00:00:00 -0300</pubDate>
-				<link>http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html</guid>
-			</item>
-		
-			<item>
-				<title>Test</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;p&gt;Hi there! I’asdasdasm Paul. I’m a physics major turned prograsdasdsadasEver since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out &lt;a href=&quot;https://www.lenpaul.com/&quot;&gt;my personal website&lt;/a&gt; for more information on my other projects (including more Jekyll themes!), as well as some of my writing.&lt;/p&gt;
-</description>
-				
-				<pubDate>Sat, 04 Apr 2020 00:00:00 -0300</pubDate>
-				<link>http://localhost:4000/journal/test.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/test.html</guid>
-			</item>
-		
-			<item>
-				<title>Welcome to Lagrange!</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;p&gt;Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 01 Jan 2016 00:00:00 -0200</pubDate>
-				<link>http://localhost:4000/journal/welcome-to-lagrange.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/welcome-to-lagrange.html</guid>
-			</item>
-		
-			<item>
-				<title>Getting Started</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;h1 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h1&gt;
-
-</description>
-				
-				<pubDate>Sat, 10 Oct 2015 00:00:00 -0300</pubDate>
-				<link>http://localhost:4000/journal/getting-started.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/getting-started.html</guid>
-			</item>
-		
-			<item>
-				<title>Text Formatting Examples</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;h1 id=&quot;markdown-support&quot;&gt;Markdown Support&lt;/h1&gt;
-
-</description>
-				
-				<pubDate>Wed, 01 Jan 2014 00:00:00 -0200</pubDate>
-				<link>http://localhost:4000/journal/text-formatting-examples.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/text-formatting-examples.html</guid>
-			</item>
-		
-			<item>
-				<title>Learning Resources</title>
-				
-					<dc:creator>Paul Le</dc:creator>
-				
-				
-					<description>&lt;p&gt;The beauty of computer programming is that you do not need to formally go to school to learn how to program. You can learn almost everything that you would need to know online, and for free. The following resources are some that I have used personally, that I highly recommend, for anyone looking to learn more about computer programming.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 10 Oct 2013 00:00:00 -0300</pubDate>
-				<link>http://localhost:4000/journal/learning-resources.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/learning-resources.html</guid>
+				<link>/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html</link>
+				<guid isPermaLink="true">/tutorial/detec%C3%A7%C3%A3o-do-uso-m%C3%A1scaras-via-redes-neurais-artificiais.html</guid>
 			</item>
 		
 	</channel>
