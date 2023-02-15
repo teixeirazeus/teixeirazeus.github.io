@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Thiago Teixeira</title>
+    <link>https://thiagoteixeira.dev/tags/</link>
+    <description>Recent content in Tags on Thiago Teixeira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://thiagoteixeira.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://thiagoteixeira.dev/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://thiagoteixeira.dev/tags/arduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://thiagoteixeira.dev/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://thiagoteixeira.dev/tags/aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS SAA</title>
+      <link>https://thiagoteixeira.dev/tags/aws-saa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/aws-saa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://thiagoteixeira.dev/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://thiagoteixeira.dev/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certification</title>
+      <link>https://thiagoteixeira.dev/tags/certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CNN</title>
+      <link>https://thiagoteixeira.dev/tags/cnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/cnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://thiagoteixeira.dev/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRNN</title>
+      <link>https://thiagoteixeira.dev/tags/crnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/crnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://thiagoteixeira.dev/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Compression</title>
+      <link>https://thiagoteixeira.dev/tags/data-compression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/data-compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DL</title>
+      <link>https://thiagoteixeira.dev/tags/dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/dl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://thiagoteixeira.dev/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drone</title>
+      <link>https://thiagoteixeira.dev/tags/drone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/drone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Express</title>
+      <link>https://thiagoteixeira.dev/tags/express/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FastAPI</title>
+      <link>https://thiagoteixeira.dev/tags/fastapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend Development</title>
+      <link>https://thiagoteixeira.dev/tags/frontend-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/frontend-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCP</title>
+      <link>https://thiagoteixeira.dev/tags/gcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Action</title>
+      <link>https://thiagoteixeira.dev/tags/github-action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/github-action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://thiagoteixeira.dev/tags/github-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://thiagoteixeira.dev/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration</title>
+      <link>https://thiagoteixeira.dev/tags/integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://thiagoteixeira.dev/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://thiagoteixeira.dev/tags/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://thiagoteixeira.dev/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTM</title>
+      <link>https://thiagoteixeira.dev/tags/lstm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MkDocs</title>
+      <link>https://thiagoteixeira.dev/tags/mkdocs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/mkdocs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://thiagoteixeira.dev/tags/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://thiagoteixeira.dev/tags/mongodb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.JS</title>
+      <link>https://thiagoteixeira.dev/tags/node.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>https://thiagoteixeira.dev/tags/nodejs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OAuth2.0</title>
+      <link>https://thiagoteixeira.dev/tags/oauth2.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/oauth2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCA</title>
+      <link>https://thiagoteixeira.dev/tags/pca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/pca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://thiagoteixeira.dev/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyTorch</title>
+      <link>https://thiagoteixeira.dev/tags/pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://thiagoteixeira.dev/tags/raspberry-pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://thiagoteixeira.dev/tags/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RegEx</title>
+      <link>https://thiagoteixeira.dev/tags/regex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>https://thiagoteixeira.dev/tags/rest-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/rest-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://thiagoteixeira.dev/tags/robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solutions Architect</title>
+      <link>https://thiagoteixeira.dev/tags/solutions-architect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/solutions-architect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://thiagoteixeira.dev/tags/typescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://thiagoteixeira.dev/tags/visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>https://thiagoteixeira.dev/tags/web-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoteixeira.dev/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
