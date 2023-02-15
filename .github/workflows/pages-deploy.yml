@@ -1,29 +1,32 @@
-name: 'Automatic build'
+name: github pages
+
 on:
   push:
     branches:
-      - main
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
+      - main  # Set a branch that will trigger a deployment
+  pull_request:
 
 jobs:
-  continuous-delivery:
-
-    runs-on: ubuntu-latest
-
+  deploy:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # for posts's lastmod
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          ruby-version: 2.7
-          bundler-cache: true
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
 
       - name: Deploy
-        run: bash tools/deploy.sh
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
