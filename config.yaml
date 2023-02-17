@@ -1,5 +1,5 @@
-baseURL: "https://teixeirazeus.github.io/"
-languageCode: en-us
+baseURL: "https://thiagoteixeira.dev"
+languageCode: pt-br
 title: Thiago Teixeira
 theme: PaperMod
 
@@ -49,7 +49,7 @@ params:
   profileMode:
     enabled: true
     title: "Thiago Teixeira"
-    subtitle: "Hi 👋, I'm Thiago Teixeira, a computer scientist from Brazil. Programming is my passion and my hobby."
+    subtitle: "Olá 👋, eu sou Thiago Teixeira, um cientista da computação apaixonado por programação. Nesta página, compartilho alguns dos meus projetos e artigos."
     imageUrl: "home/profile-image-thiago-teixeira.png"
     imageWidth: 220
     imageHeight: 220
