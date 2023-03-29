@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://teixeirazeus.github.io/blog/allien/</loc>
+  </url><url>
     <loc>https://teixeirazeus.github.io/blog/codigo-limpo-nomes/</loc>
   </url><url>
     <loc>https://teixeirazeus.github.io/projects/obsidian-publish-github-action/</loc>
@@ -54,6 +56,8 @@
   </url><url>
     <loc>https://teixeirazeus.github.io/tags/computer-vision/</loc>
   </url><url>
+    <loc>https://teixeirazeus.github.io/tags/conto/</loc>
+  </url><url>
     <loc>https://teixeirazeus.github.io/tags/crnn/</loc>
   </url><url>
     <loc>https://teixeirazeus.github.io/tags/css/</loc>
@@ -69,6 +73,8 @@
     <loc>https://teixeirazeus.github.io/tags/express/</loc>
   </url><url>
     <loc>https://teixeirazeus.github.io/tags/fastapi/</loc>
+  </url><url>
+    <loc>https://teixeirazeus.github.io/tags/fic%C3%A7%C3%A3o-cient%C3%ADfica/</loc>
   </url><url>
     <loc>https://teixeirazeus.github.io/tags/frontend-development/</loc>
   </url><url>
