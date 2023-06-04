@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language><atom:link href="https://teixeirazeus.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Como programar como a NASA</title>
+      <link>https://teixeirazeus.github.io/blog/code-like-nasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://teixeirazeus.github.io/blog/code-like-nasa/</guid>
+      <description>10 regras para sistemas críticos</description>
+    </item>
+    
+    <item>
       <title>Allien</title>
       <link>https://teixeirazeus.github.io/blog/allien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://teixeirazeus.github.io/blog/allien/</guid>
       <description>Pequeno conto de ficção científica</description>
-    </item>
-    
-    <item>
-      <title>Como programar como a NASA</title>
-      <link>https://teixeirazeus.github.io/blog/code-like-nasa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://teixeirazeus.github.io/blog/code-like-nasa/</guid>
-      <description>10 regras usadas pela NASA para programar</description>
     </item>
     
     <item>
