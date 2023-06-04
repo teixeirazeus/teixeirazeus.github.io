@@ -4,7 +4,7 @@ description: "Pequeno conto de ficção científica"
 dateString: Mar 2023
 draft: false
 tags: ["conto", "ficção científica"]
-weight: 106
+weight: 105
 cover:
     image: "/blog/allien/allien.webp"
 ---

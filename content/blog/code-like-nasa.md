@@ -1,10 +1,10 @@
 ---
 title: "Como programar como a NASA"
-description: "10 regras usadas pela NASA para programar"
+description: "10 regras para sistemas críticos"
 dateString: Jun 2023
 draft: false
 tags: ["programação", "nasa"]
-weight: 106
+weight: 104
 cover:
     image: "/blog/code-like-nasa/nasa-logo.webp"
 ---
