@@ -1,5 +1,5 @@
 ---
-title: "Como programar como a NASA"
+title: "Como programar igual a NASA"
 description: "10 regras para sistemas críticos"
 dateString: Jun 2023
 draft: false
