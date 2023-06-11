@@ -173,3 +173,7 @@ https://github.com/stanislaw/awesome-safety-critical/blob/master/Backup/JPL_Codi
 https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code
 
 https://betterprogramming.pub/the-power-of-10-nasas-rules-for-coding-43ae1764f73d
+
+https://www.youtube.com/watch?v=GWYhtksrmhE
+
+https://www.youtube.com/watch?v=M5uxjrdEdtA
