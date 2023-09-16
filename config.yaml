@@ -49,7 +49,7 @@ params:
   profileMode:
     enabled: true
     title: "Thiago Teixeira"
-    subtitle: "Olá 👋, eu sou Thiago Teixeira, um cientista da computação apaixonado por programação. Nesta página, compartilho alguns dos meus projetos e artigos."
+    subtitle: "Hello 👋, I'm Thiago Teixeira, a computer scientist passionate about programming. On this page, I share some of my projects and articles."
     imageUrl: "home/profile-image-thiago-teixeira.png"
     imageWidth: 220
     imageHeight: 220
