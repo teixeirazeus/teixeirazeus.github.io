@@ -45,4 +45,4 @@ Kernel: 6.2.0-32-generic
 I'm quite impressed with the results from Bun, which managed to outperform Python's PyPy. Of course, choosing a programming language to solve a problem goes beyond just performance, but I'm thrilled to see a high-level language optimized in this way. Creating a project that optimizes both development time and performance is the best of both worlds
 
 
-[The code](https://github.com/teixeirazeus/bun-vs-pytho)
+[The code](https://github.com/teixeirazeus/bun-vs-python)
