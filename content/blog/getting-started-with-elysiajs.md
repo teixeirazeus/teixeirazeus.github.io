@@ -36,6 +36,13 @@ const app = new Elysia().get("/", () => "Okey dokey").listen(8000);
 console.log( `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}` );
 ```
 
+Start a development server by:
+```bash
+bun dev
+```
+
+Now you server is running on `http://localhost:8000`.
+
 ### Database Access
 For the database, we'll use MongoDB and its JavaScript connector, Mongoose.
 
