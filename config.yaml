@@ -72,8 +72,8 @@ params:
       url: "https://www.linkedin.com/in/thiago-s-teixeira-7564a8140/"
     - name: "github"
       url: "https://github.com/teixeirazeus"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
+    - name: "youtube"
+      url: "https://www.youtube.com/@ThiagoSTeixeir4"
     # - name: "cv"
     #   url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
 
