@@ -50,7 +50,7 @@ params:
     enabled: true
     title: "Thiago Teixeira"
     subtitle: "Hello 👋, I'm Thiago Teixeira, a computer scientist passionate about programming. On this page, I share some of my projects and articles."
-    imageUrl: "home/profile-image-thiago-teixeira.png"
+    imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
     # buttons:
