@@ -1,11 +1,10 @@
 baseURL = 'https://blog.coolapso.sh/'
 languageCode = 'pt-pt'
-theme = ["github.com/coolapso/hugo-theme-hello-4s3ti"]
+theme = "hello-friend-4s3ti"
 title = 'blog.coolapso.sh'
 copyright = "All Rights Reserved"
 IsMultiLingual = true
 defaultContentLanguage = 'pt-pt'
-
 
 [params]
   defaultTheme = "dark"
