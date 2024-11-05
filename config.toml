@@ -23,7 +23,7 @@ defaultContentLanguage = 'pt-pt'
   logo = { logoText = "coolapso.sh", logoCursorColor = "#ffffff" }
   footer = { showVersion = true, socialIcons = true, author = true, rss = true, trademark = true, copyright = true, bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>", "with <a href=\"https://github.com/coolapso/hugo-theme-hello-4s3ti\">Hello-friend-4s3ti</a>"] }
 
-[[ params.author ]]
+[ params.author ]
 name = "Thiago S. Teixeira"
 
 [[params.social]]
