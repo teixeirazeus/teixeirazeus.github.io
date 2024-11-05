@@ -52,6 +52,7 @@ params:
     name: "coolapso"
   defaultTheme: "dark"
   EnableThemeToggle: true 
+  social: true
 # gitUrl: "https://github.com/4s3ti"
   EnableSharingButtons: true
   EnableGlobalLanguageMenu: true
