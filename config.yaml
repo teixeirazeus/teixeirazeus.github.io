@@ -1,6 +1,6 @@
 baseURL: "https://teixeirazeus.github.io/"
 languageCode: 'br'
-theme: "hello-friend-4s3ti"
+theme: ["github.com/coolapso/hugo-theme-hello-4s3ti"]
 title: 'thiagoteixeira.dev'
 copyright: "All Rights Reserved"
 IsMultiLingual: true

@@ -5,9 +5,9 @@ dateString: Set 2023
 draft: false
 tags: ["benchmark", "python", "typescript"]
 weight: 102
-cover:
-    image: "/blog/typescript-bun-vs-python/header.jpg"
 ---
+
+![TypeScript vs. Python](/static/blog/typescript-bun-vs-python/header.jpg)
 
 ### Introduction
 Bun is swiftly gaining traction in the JavaScript community. Promoted as a runtime with a keen emphasis on speed and crafted in Zig, it brings new possibilities for developers deeply rooted in the JavaScript ecosystem. Historically, I leaned towards TypeScript mainly for front-end development. 
@@ -30,7 +30,7 @@ Kernel: 6.2.0-32-generic
 
 ### Results
 
-![graph](/blog/typescript-bun-vs-python/result.png)
+![graph](/static/blog/typescript-bun-vs-python/result.png)
 
 | Environment                  | Time (seconds) |
 |------------------------------|----------------|
